@@ -1,0 +1,16 @@
+{
+  "name": "facebook-to-slack",
+  "version": "0.0.1",
+  "description": "log facebook page's messages to slack channel.",
+  "main": "index.js",
+  "scripts": {
+		"package": "node-lambda package --configFile deploy.env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kai Hao",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.5.3",
+    "node-lambda": "^0.8.6"
+  }
+}
